@@ -85,4 +85,12 @@
         menu_code = #{code}
     </update>
 
+    <delete id="deleteMenu" parameterType="int">
+        DELETE
+        FROM
+        tbl_menu
+        WHERE
+        menu_code = #{code}
+    </delete>
+
 </mapper>
